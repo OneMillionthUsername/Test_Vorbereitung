@@ -6,6 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_Vorbereitung", "Test_Vorbereitung.csproj", "{A679C71C-607A-4694-860E-7BDA860586A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Angabe", "Angabe", "{CB34FC3C-042F-42DC-8CD5-F11229FB9C9E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\_theorie.pdf = ..\..\..\..\Desktop\_theorie.pdf
+		vb_test.pdf = vb_test.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Delegates", "Test_Delegates\Test_Delegates.csproj", "{924E9D0F-2307-4292-93A4-AD311656753C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +23,10 @@ Global
 		{A679C71C-607A-4694-860E-7BDA860586A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A679C71C-607A-4694-860E-7BDA860586A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A679C71C-607A-4694-860E-7BDA860586A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924E9D0F-2307-4292-93A4-AD311656753C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924E9D0F-2307-4292-93A4-AD311656753C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924E9D0F-2307-4292-93A4-AD311656753C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924E9D0F-2307-4292-93A4-AD311656753C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
